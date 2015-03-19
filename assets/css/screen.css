@@ -587,6 +587,16 @@ section.post-content li {
   margin: 10px;
 }
 
+p img {
+  width:auto;
+  max-width:100%;
+}
+
+.post-content embed, .post-content iframe {
+  max-width: 100%;
+  width: 100%;
+}
+
 .tags {
   text-align: right;
   padding-right: 6px;
